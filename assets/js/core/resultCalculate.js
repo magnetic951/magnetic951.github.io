@@ -373,7 +373,7 @@ function checkPicture(){
             imgCC = "WG";
         }
     
-    document.getElementById("ccImage").setAttribute("src","./assets/img/CC/"+ imgCC + ".png");
+    document.getElementById("ccImage").setAttribute("src","./assets/img/CC/"+ imgCC + ".jpg");
 }
 
 // Compare
