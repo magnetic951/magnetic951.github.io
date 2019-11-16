@@ -4296,6 +4296,7 @@ tbody.collapse.show {
   .navbar-expand-sm .dropup .dropdown-menu {
     top: auto;
     bottom: 100%;
+
   }
 }
 
@@ -17623,7 +17624,7 @@ footer .pull-center {
     width: auto;
     margin-bottom: 15px;
     padding-top: 0;
-    height: 300px;
+    height: auto;
     animation: none;
     opacity: 1;
     overflow-y: scroll;
