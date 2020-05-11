@@ -4639,7 +4639,7 @@ tbody.collapse.show {
   padding: 0.75rem 1.25rem;
   margin-bottom: 0;
   background-color: #fff;
-  border-bottom: 1px solid rgba(0, 0, 0, 0.12);
+  border-bottom: 1px solid rgba(255, 0, 255, 0.12);
 }
 
 .card-header:first-child {
@@ -11418,7 +11418,7 @@ label {
 
 @media (max-width: 767px) {
   .tab-pane#schedule-2 {
-    padding-top: 20px;
+    padding-top: 0px;
   }
 }
 
@@ -14607,7 +14607,7 @@ textarea {
 }
 
 .tab-space {
-  padding: 20px 0 50px 0px;
+  padding: 0px 0 0px 0px;
 }
 
 .info {
@@ -16327,7 +16327,7 @@ footer .pull-center {
   margin-right: 15px;
   margin-top: -30px;
   border: 0;
-  background: linear-gradient(60deg, #eee, #bdbdbd);
+  background: linear-gradient(60deg, #F0F8FF, #E6E6FA);
 }
 
 .card .card-header .title {
@@ -17388,8 +17388,8 @@ footer .pull-center {
 }
 
 .profile-page .gallery {
-  margin-top: 3.213rem;
-  padding-bottom: 50px;
+  margin-top: 1.213rem;
+  padding-bottom: 30px;
 }
 
 .profile-page .gallery img {
