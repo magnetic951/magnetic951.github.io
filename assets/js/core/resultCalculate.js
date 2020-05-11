@@ -39,7 +39,7 @@ function password(){
         var testV = 0;
         var pass1 = prompt('\n请输入密码：','');
     
-        while (testV < 9999) {
+        while (testV < 99999999) {
             if(!pass1){
                 history.go(-1);
             }
