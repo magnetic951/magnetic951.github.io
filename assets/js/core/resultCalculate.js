@@ -687,17 +687,17 @@ var i;
                     }else{
                         bInput = inputArray[i+3];
                         fLimit = i+3;
-                        skip = 4;
+                        skip = 3;
                     } 
                 } else{
                     bInput = inputArray[i+2];
                     fLimit = i+2;
-                    skip = 3;
+                    skip = 2;
                 } 
             }else{
                 bInput = inputArray[i+1]; 
                 fLimit = i+1;
-                skip = 2;
+                skip = 1;
             }
         
         //==========END=============
