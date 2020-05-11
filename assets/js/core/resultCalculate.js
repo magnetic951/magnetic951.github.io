@@ -24,34 +24,14 @@ var countArray = [
     ];
 
 function runMain(){
+    
     document.getElementById("userInput").innerHTML = inputArray;
     if( type == "ic"){
         calculateIC();
     }else{
         calculateOther();
     }
-}
-
-//password
-function password(){
-    //document.getElementsByTagName("body")[0].style.display = "none";
-        
-        var testV = 0;
-        var pass1 = prompt('\n请输入密码：','');
     
-        while (testV < 99999999) {
-            if(!pass1){
-                history.go(-1);
-            }
-            
-            var hashC = Sha1.hash(pass1);
-            if (hashC == "5baa61e4c9b93f3f0682250b6cf8331b7ee68fd8") {
-            //document.getElementsByTagName("body")[0].style.display = "block";
-            break;
-            }
-            testV+=1;
-            var pass1 = prompt('\n密码错误, 请重新输入密码：','');
-        }
 }
     
 // other
@@ -1057,3 +1037,4 @@ function GetURLParameter(sParam){
         }
     }
 }
+
