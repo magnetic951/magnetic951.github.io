@@ -52,7 +52,20 @@
                     return false;
                 }
             }
-            password();
+            var pass1 = prompt('\n请输入密码：','');
+            if(!pass1){
+                return false;
+            }else{
+                var hashC = Sha1.hash(pass1);
+                var hashP = hash();
+                if (hashC == hashP) {
+                    return true;
+                }else{
+                    alert("密码错误.");
+                    return false;
+                }
+            }
+            
         }
         
     </script>
