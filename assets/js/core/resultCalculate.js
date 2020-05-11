@@ -25,6 +25,7 @@ var countArray = [
 
 function runMain(){
     document.getElementById("userInput").innerHTML = inputArray;
+    password();
     if( type == "ic"){
         calculateIC();
     }else{
