@@ -1,0 +1,346 @@
+<!--
+ =========================================================
+ * Material Kit - v2.0.6
+ =========================================================
+
+ * Product Page: https://www.creative-tim.com/product/material-kit
+ * Copyright 2019 Creative Tim (http://www.creative-tim.com)
+   Licensed under MIT (https://github.com/creativetimofficial/material-kit/blob/master/LICENSE.md)
+
+
+ =========================================================
+
+ * The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software. -->
+
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+ 
+  <meta charset="utf-8" />
+  <link rel="apple-touch-icon" sizes="76x76" href="./assets/img/apple-icon.png">
+  <link rel="icon" type="image/png" href="./assets/img/favicon.png">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+  <title>
+    MAGNETIC 951 - 延年
+  </title>
+  <meta content='width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0, shrink-to-fit=no' name='viewport' />
+  <!--     Fonts and icons     -->
+  <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700|Roboto+Slab:400,700|Material+Icons" />
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/latest/css/font-awesome.min.css">
+  <!-- CSS Files -->
+  <link href="./assets/css/material-kit.css?v=2.0.6" rel="stylesheet" />
+  <!--   Core JS Files   -->
+  <script src="./assets/js/core/resultCalculate.js" type="text/javascript"></script>
+  <script src="./assets/js/core/jquery.min.js" type="text/javascript"></script>
+  <script src="./assets/js/core/popper.min.js" type="text/javascript"></script>
+  <script src="./assets/js/core/bootstrap-material-design.min.js" type="text/javascript"></script>
+  <script src="./assets/js/plugins/moment.min.js"></script>
+  <!--	Plugin for the Datepicker, full documentation here: https://github.com/Eonasdan/bootstrap-datetimepicker -->
+  <script src="./assets/js/plugins/bootstrap-datetimepicker.js" type="text/javascript"></script>
+  <!--  Plugin for the Sliders, full documentation here: http://refreshless.com/nouislider/ -->
+  <script src="./assets/js/plugins/nouislider.min.js" type="text/javascript"></script>
+  <!--  Google Maps Plugin    -->
+  <script src="https://maps.googleapis.com/maps/api/js?key=YOUR_KEY_HERE"></script>
+  <!-- Control Center for Material Kit: parallax effects, scripts for the example pages etc -->
+  <script src="./assets/js/material-kit.js?v=2.0.6" type="text/javascript"></script>
+    
+    <style>
+    #tcode #toggle{
+            background-color: #5D6D7E ;
+        }
+    #tcode {
+          font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+          border-collapse: collapse;
+          margin-left:auto; 
+          margin-right:auto;
+          width: 80%;
+        box-shadow: 0 16px 38px -12px rgba(0, 0, 0, 0.56), 0 4px 25px 0px rgba(0, 0, 0, 0.12), 0 8px 10px -5px rgba(0, 0, 0, 0.2);
+        }
+
+        #tcode td, #tcode th {
+          border: 1px solid #ddd;
+          padding: 8px;
+          font-size: 20px;
+          width: 25%;
+        }
+
+        #tcode tr:nth-child(even){background-color: #f2f2f2;}
+        #tcode tr:nth-child(odd){background-color: #D5D8DC ;}
+
+        #tcode td:hover {background-color: #566573; color: white;}
+    </style>
+</head>
+
+<body class="profile-page sidebar-collapse">
+  <nav class="navbar navbar-transparent navbar-color-on-scroll fixed-top navbar-expand-lg bg-dark" color-on-scroll="100" id="sectionsNav">
+    <div class="container">
+      <div class="navbar-translate">
+        <a class="navbar-brand" href="index.html" style="font-size: 25px;">
+          <big><i class="fa fa-magnet fa-rotate-180"></i><i class="fa fa-magnet fa-rotate-180"></i></big> </a>
+          
+        <button class="navbar-toggler" type="button" data-toggle="collapse" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="sr-only">Toggle navigation</span>
+          <span class="navbar-toggler-icon"></span>
+          <span class="navbar-toggler-icon"></span>
+          <span class="navbar-toggler-icon"></span>
+        </button>
+      </div>
+      <div class="collapse navbar-collapse">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="index.html" onclick="">
+              <i class="material-icons">home</i> 主页
+            </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="calculate.html" >
+              <i class="material-icons">transform</i> 磁场批算
+            </a>
+          </li>
+        <li class="dropdown nav-item">
+            <a href="#" class="dropdown-toggle nav-link" data-toggle="dropdown">
+              <i class="material-icons">all_inclusive</i> 八大磁场
+            </a>
+            <div class="dropdown-menu dropdown-with-icons"> 
+                <a href="sq.html" class="dropdown-item">
+                <i class="material-icons">filter_1</i> 
+                  生气
+              </a>
+                <a href="ty.html" class="dropdown-item">
+                <i class="material-icons">filter_2</i> 
+                  天医
+              </a>
+                <a href="yn.html" class="dropdown-item">
+                <i class="material-icons">filter_3</i> 
+                  延年
+              </a>
+                <a href="fw.html" class="dropdown-item">
+                <i class="material-icons">filter_4</i> 
+                  伏位
+              </a>
+                <a href="jm.html" class="dropdown-item">
+                <i class="material-icons">filter_5</i> 
+                  绝命
+              </a>
+                <a href="hh.html" class="dropdown-item">
+                <i class="material-icons">filter_6</i> 
+                  祸害
+              </a>
+                <a href="ls.html" class="dropdown-item">
+                <i class="material-icons">filter_7</i> 
+                  六煞
+              </a>
+                <a href="wg.html" class="dropdown-item">
+                <i class="material-icons">filter_8</i> 
+                  五鬼
+              </a>
+            </div>
+          </li>
+            
+          <li class="dropdown nav-item">
+            <a href="#" class="dropdown-toggle nav-link" data-toggle="dropdown">
+              <i class="material-icons">graphic_eq</i> 易经磁场
+            </a>
+            <div class="dropdown-menu dropdown-with-icons">      
+              <a href="code.html" class="dropdown-item">
+                <i class="material-icons">lock_open</i> 数字解码
+              </a>
+                <a href="" class="dropdown-item">
+                <i class="material-icons">compare_arrows</i> 
+                  磁场衔接 
+                <i class="material-icons" style="font-size: 15px;">lock</i>
+              </a>
+                
+            </div> 
+          </li>
+          <li class="dropdown nav-item">
+            <a href="#" class="dropdown-toggle nav-link" data-toggle="dropdown">
+              <i class="material-icons">apps</i> 更多
+            </a>
+            <div class="dropdown-menu dropdown-with-icons">
+              <a href="index.html#about" class="dropdown-item">
+                <i class="material-icons">supervisor_account</i> 关于我们
+              </a>
+                <a href="index.html#contact" class="dropdown-item">
+                <i class="material-icons">mail_outline</i> 联系我们
+              </a>
+                <a href="privacy.html" class="dropdown-item">
+                <i class="material-icons">security</i> 隐私权条款
+              </a> 
+            </div> 
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <div class="page-header header-filter" data-parallax="true" style="background-image: url('./assets/img/w4.jpg');"></div>
+  <div class="main main-raised">
+    <div class="profile-content">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-6 ml-auto mr-auto">
+            <div class="profile">
+              <div class="avatar">
+                <img src="./assets/img/CC/YN.jpg" alt="Circle Image" class="img-raised rounded-circle img-fluid">
+              </div>
+              <div class="name">
+                <h2 class="title">延年</h2>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="description text-center">
+          <h4>运势特色: <br>旺盛的 <u>生命力</u> 。威风八面，作风强势，具 <u>领导</u> 及将领特质。 <u>延续</u> 美好状况。 在老年的话，延年益寿。 <u>守财</u> 库。<br><br>概略： <br><i class="fa fa-check-circle text-success"></i>  富有正义感。目标明确，实践理性。长寿<br><i class="fa fa-times-circle text-danger"></i>  滥用同情心。大男人（女人）主义。容易固执/顽固。<br><br><br>
+          </h4>
+        </div>
+        <div class="row">
+          <div class="col-md-6 ml-auto mr-auto  text-center">
+              <h4>生气号码 &amp;强度</h4>
+              
+              <table id="tcode">
+                  <tr id="toggle">
+                      <td><span class="badge badge-pill badge-info">一</span></td>
+                      <td><span class="badge badge-pill badge-rose">二</span></td>
+                      <td><span class="badge badge-pill badge-warning">三</span></td>
+                      <td><span class="badge badge-pill badge-primary">四</span></td>
+                  </tr>
+                  <tr>
+                      <td>19</td>
+                      <td>78</td>
+                      <td>43</td>
+                      <td>26</td>
+                  </tr>
+                  <tr>
+                      <td>91</td>
+                      <td>87</td>
+                      <td>34</td>
+                      <td>62</td>
+                  </tr>
+              </table>
+              <br>
+              <br>
+          </div>
+        </div>
+
+          <div class="card card-nav-tabs">
+        <div class="row">
+          <div class="col-md-6 ml-auto mr-auto">
+            <div class="profile-tabs ">
+              <ul class="nav nav-pills nav-pills-icons justify-content-center card-header" role="tablist">
+                <li class="nav-item">
+                  <a class="nav-link active" href="#1st" role="tab" data-toggle="tab">
+                    <i class="material-icons">business_center</i> 财富事业
+                  </a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#2nd" role="tab" data-toggle="tab">
+                    <i class="material-icons">people</i> 人际感情
+                  </a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#3rd" role="tab" data-toggle="tab">
+                    <i class="material-icons">thumbs_up_down</i> 磁场特质
+                  </a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#4th" role="tab" data-toggle="tab">
+                    <i class="material-icons">blur_on</i> 饰品/颜色
+                  </a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+
+        <div class="tab-content tab-space">
+          <div class="tab-pane active text-center gallery" id="1st">
+            <div class="row">
+              <div class="col-md-6 ml-auto mr-auto">
+                <h3><i class="fa fa-check-circle text-success"></i><br>主导，专业，独当一面<br>主动，自告奋勇，抗压力强。<br>谨慎用钱。<br><br>
+                    <i class="fa fa-times-circle text-danger"></i><br>劳心劳力，操劳过度。<br>
+                </h3>
+              </div>
+            </div>
+          </div>
+          <div class="tab-pane text-center gallery card-body" id="2nd">
+            <div class="row">
+              <div class="col-md-6 ml-auto mr-auto">
+                <h3><i class="fa fa-check-circle text-success"></i><br>正义感强，重朋友。<br>专一，宁缺毋滥。<br><br>
+                    <i class="fa fa-times-circle text-danger"></i><br>不容易找对象，太重事业。<br>自我主张强，少情调，缺圆滑。<br>
+                </h3>
+              </div>
+            </div>
+          </div>
+          <div class="tab-pane text-center gallery card-body" id="3rd">
+            <div class="row">
+              <div class="col-md-6 ml-auto mr-auto">
+                <h3><i class="fa fa-check-circle text-success"></i><br>富有正义感。<br>目标明确，重视理想实践。<br>意志坚定，有安全感。<br>长寿。<br>老大格局，责任感强。<br>做事分寸。<br><br>
+                    <i class="fa fa-times-circle text-danger"></i><br>重朋友，易被伤。<br>太重事业，缺乏圆融。<br>自我意识太强/固执。<br>闲不住，操劳过度。<br>大男人/女人主义。<br>
+                </h3>
+              </div>
+            </div>
+          </div>
+            <div class="tab-pane text-center gallery card-body" id="4th">
+            <div class="row">
+              <div class="col-md-6 ml-auto mr-auto">
+                <h3>
+                    <i class="fa fa-magic"></i> 饰品<br>
+                    珍珠，钻石<br><br>
+                    <i class="fa fa-tint"></i> 颜色<br>
+                    紫色，棕色<br><span class="badge badge-pill badge-primary">紫</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="badge badge-pill badge-warning" style="background-color:chocolate;">棕</span><br>
+                </h3>
+              </div>
+            </div>
+          </div>
+        </div>
+          </div>
+          <div style="position: fixed; bottom: 25px; right: 25px;background-color:#AB47BC;z-index: 1;border: 5px solid #CE93D8;border-radius: 10px; text-align: center;" ><a href="index.html#contact"><i class="material-icons" style="color: white;font-size: 50px;">bug_report</i> </a><br><a style="color: white;">出错</a></div>
+      </div>
+        <div><br><br><br></div>
+    </div>
+  </div>
+  <!--  End Modal -->
+  <footer class="footer footer-default">
+    <div class="container">
+      <nav class="float-left">
+        <ul>
+          <li>
+            <a href="index.html">
+              主页
+            </a>
+          </li>
+          <li>
+            <a href="index.html#about">
+              关于我们
+            </a>
+          </li>
+          <li>
+            <a href="index.html#contact">
+              联系我们
+            </a>
+          </li>
+            <li>
+            <a href="privacy.html">
+              隐私权条款
+            </a>
+          </li>
+        </ul>
+      </nav>
+      <div class="copyright float-right">
+        &copy;
+        <script>
+          document.write(new Date().getFullYear())
+        </script>, <a>MAGNETIC 951</a>.
+      </div>
+    </div>
+  </footer>
+<script type="text/javascript">
+      var infolinks_pid = 3258499;
+      var infolinks_wsid = 0;
+  </script>
+  <script type="text/javascript" src="http://resources.infolinks.com/js/infolinks_main.js"></script>
+</body>
+
+</html>
