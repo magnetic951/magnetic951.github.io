@@ -14244,6 +14244,10 @@ textarea {
   background-color: #00bcd4;
 }
 
+.badge.badge-green {
+  background-color: #59b659;
+}
+
 .badge.badge-success {
   background-color: #4caf50;
 }
